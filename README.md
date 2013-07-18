@@ -13,6 +13,11 @@ Running
 
     java -jar dyndns-1.0-SNAPSHOT-jar-with-dependencies.jar
 
+Options
+---------
+    -v    : show verbose output
+    -v -v : show everything including the protocol dumps
+
 Example of .dyndns.rc file
 ---------
 
