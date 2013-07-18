@@ -18,7 +18,7 @@ Options
     -v    : show verbose output
     -v -v : show everything including the protocol dumps
 
-Example of .dyndns.rc file
+Example of $HOME/.dyndns.rc file
 ---------
 
     route53 {
