@@ -1,4 +1,4 @@
-DynDNS for Amazon Route53 [![Build Status](https://api.travis-ci.org/jdevelop/dyndns)] (http://travis-ci.org/jdevelop/dyndns)
+DynDNS for Amazon Route53 [![Build Status](https://api.travis-ci.org/jdevelop/dyndns.png)] (http://travis-ci.org/jdevelop/dyndns)
 =========
 
 DynDNS daemon for Amazon Route 53
