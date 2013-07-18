@@ -22,7 +22,7 @@ trait RecordUpdater {
       // first of all we need to delete our zone if one exists
       r => List(new Change(ChangeAction.DELETE, {
         val change = new ResourceRecordSet(subdomain, RRType.A)
-        change.setTTL(TTL)
+        change.setTTL(r.getTTL)
         change.setResourceRecords(
           List(
             new ResourceRecord(r.getResourceRecords.get(0).getValue)
